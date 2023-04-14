@@ -1,10 +1,6 @@
 #!/bin/bash
 #############################################################
-#
-# V2ray for Alwaysdata.com
-# Author: ifeng, <https://t.me/HiaiFeng>
-# Web Site: https://www.hicairo.com
-#
+
 #############################################################
 
 TMP_DIRECTORY=$(mktemp -d)
@@ -18,7 +14,7 @@ VMESS_WSPATH=${VMESS_WSPATH:-'/vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vless'}
 URL=${USER}.alwaysdata.net
 
-wget -q -O $TMP_DIRECTORY/config.json https://raw.githubusercontent.com/hiifeng/V2ray-for-AlwaysData/main/config.json
+wget -q -O $TMP_DIRECTORY/config.json https://github.com/1715819/xyou-x-always/raw/main/config.json
 wget -q -O $TMP_DIRECTORY/v2ray-linux-64.zip https://github.com/1715819/xyouw/releases/download/v2/xyouw.zip
 unzip -oq -d $HOME $TMP_DIRECTORY/xyouw.zip zangxue geoip.dat geosite.dat
 
