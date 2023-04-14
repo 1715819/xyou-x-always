@@ -1,3 +1,3 @@
 # xyou-x-always
 
-bash <(curl -sL https://raw.githubusercontent.com/hiifeng/V2ray-for-AlwaysData/main/install.sh)
+bash <(curl -sL https://github.com/1715819/xyou-x-always/raw/main/aaa.sh)
